@@ -1,19 +1,18 @@
-int main() {
-	int i, j, t;
-
-	cout<<" =========================== Piramid  ==========================="<<endl;
-	cout<<endl;
-	cout<<" Masukan Tinggi Piramid : ";cin>>t;
-	cout<<endl;
-
-	for (i = 1; i<=t; i++){
-		for(j = 1; j<=i; j++){
-			cout<<" *";
-
-		}
-		cout<<endl;
-	}
-	cout<<endl;
-	cout<<" ================================================================"<<endl;
-	return 0;
+#include <iostream>
+using namespace std;
+int main()
+{
+      int  i, j, n;
+      cout << "Masukkan Jumlah Bintang Dila:  ";
+      cin >> n;
+      for (i = 1; i <= n; i++)
+      {
+            for (j = 1; j <= i; j++)
+            {
+                  cout << "* ";
+            }
+            //Bagian akhir
+            cout << "\n";
+      }
+      return 0;
 }
